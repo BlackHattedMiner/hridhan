@@ -24,7 +24,7 @@ if st.sidebar.button('My Present School'):
 
 
 o = st.selectbox(
-    'Select State Name',
+    'What do you want to know?',
     ('Birth', 'Favourite Things', 'Favourite Foods', 'Milestones', 'Family', 'First Home', 'First Birthday', 'First School', 'Second Birthday', 'Second Home', 'Third Birthday', 'Second School')
 )
 
