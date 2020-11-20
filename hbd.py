@@ -46,7 +46,7 @@ o = st.selectbox(
 
 if o == "Birth":
     st.success("I was born on 19th November 2016 to my parents Mr. Mahendra Pratap Singh and Shreya Singh at Astha Hospital, Kalyan, Maharashtra.")
-    imga = Image.open("Birth.jpeg")
+    imga = Image.open("birth.jpeg")
     st.image(imga,width=500)
 if o == "Favourite Things":
     st.success("Originally I am a very diligent and peaceful boy, but still I love mobile phones a lot :) xD")
